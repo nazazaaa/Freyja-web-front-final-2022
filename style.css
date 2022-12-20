@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7373;
+
+}
+
+.navbar {
+    margin-top: 10px;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar a {
+    color: White;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+    border-bottom: white solid 1px;
+}
+
+.photo1{
+   height: 200px;
+    width: 100%;
+}
+.shopTXT{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:#6f5e53;
+    margin-top:.30px;
+    text-shadow: rgb(255, 255, 255) 5px 5px 5px;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.photo2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.photo .kase .a3{
+margin-right: 100px;
+display: block;
+}
+.text{
+    width: 900px;
+    text-transform: uppercase;
+    position:absolute;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 250px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: rgb(0, 0, 0) 2px 5px 2px;
+}
+.zakaz{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 70px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 17px;
+    text-align: center;
+    
+    
+}
+
+.soz1{
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#363030;
+}
+.soz2{
+    height: 200px;
+    margin-right: 50px;
+    color:#363030; 
+}
+.soz3{
+    height: 200px;
+    margin-right: 50px; 
+    margin-left: 50px;
+    color:#363030;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(25, 24, 24);
+    line-height: 27px;
+  }
+  
+  footer p {
+    font-size: 18px;
+  }
+  
+  .spin {
+    margin: auto;
+  }
+  
+  footer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+      0% {
+          transform:rotate(0deg);
+      }
+      100% {
+          transform:rotate(360deg);
+      }
+  }
+  
+  .f-navbar {
+    height: 240px;
+    display: flex;
+    padding-right: 60px;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 30px 0 0 200px;
+    border-right: solid rgba(255, 255, 255, 0.11) 1px;
+  }
+  
+  .f-navbar h2 {
+    color: rgba(177, 172, 172, 0.653);
+    font-size: 22px;
+  }
+  
+  .f-navbar a {
+    color: rgba(255, 255, 255, 0.667);
+  }
+  
+  .f-navbar a:hover {
+    color: rgba(255, 255, 255, 0.84);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .icon-navbar {
+    margin: auto 15px;
+    display: flex;
+    padding-right: 60px;
+    flex-direction: column;
+    font-size: 18px;
+  }
+  
+  .icon-navbar a {
+    color: rgba(255, 255, 255, 0.326);
+    margin-bottom: 10px;
+  }
+  
+  .icon-navbar a:hover {
+    color: rgba(255, 255, 255, 0.651);
+    cursor: pointer;
+  }
+  
+  .f-text {
+    width: 250px;
+    margin: auto;
+  }

@@ -1,0 +1,288 @@
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Cormorant Garamond', serif;
+  width: 100%;
+  background-color: #6f5e53;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: 'Old Standard TT', serif;
+  color: #c3a995;
+  font-size: 5vw;
+  font-weight: 400;
+  cursor: default;
+}
+
+h2 {
+  color: #f2f4f3;
+}
+
+p {
+  font-weight: 500;
+  font-size: 3.2vh;
+  color: #c3a995;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  text-align: center;
+  word-spacing: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+}
+
+.navbar a {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  opacity: 0.5;
+  border-bottom: white solid 1px;
+}
+
+.title {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #f8f0e5;
+}
+
+.title-text {
+  margin: auto;
+}
+
+.title p {
+  margin: auto;
+  width: 50%;
+  color: #6f5e53;
+}
+
+.title a p {
+  width: 30px;
+  font-size: 55px;
+  transform: rotate(90deg);
+}
+
+.title a p:hover {
+  color: #6f5e537e;
+  transition: 0.1s;
+}
+
+.steps {
+  height: 100vh;
+}
+
+.h {
+  height: 30%;
+  padding-left: 4vw;
+  display: flex;
+}
+
+.h p {
+  font-size: 2vw;
+}
+
+.steps-context {
+  display: flex;
+  flex-direction: row;
+}
+
+.steps-context p {
+  margin: auto;
+  width: 40vw;
+  margin-left: 30px;
+  font-size: 3vh;
+  color: #f2f4f3;
+}
+
+.step-1 img {
+  height: 50vh;
+  margin-right: 20px;
+}
+
+.step-context p {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10vh;
+}
+
+.scroll-container {
+  height: 100vh;
+  min-height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+}
+
+.scroll-element {
+  width: 30%;
+  min-height: 10%;
+  height: 40%;
+  background-size: cover;
+}
+
+.scroll-element:nth-of-type(3) {
+  background-image: url('https://rms.woodmenvalley.org/GetImage.ashx?guid=08ca3184-1399-4aae-bd15-9a8203f72b65');
+}
+
+.scroll-element:nth-of-type(1) {
+  background-image: url('https://thepotterywheel.com/wp-content/uploads/2021/10/wedge-clay-when-you-are-hand-building.jpg');
+}
+
+.scroll-element:nth-of-type(2) {
+  background-image: url('https://fthmb.tqn.com/c1SSeo3PRPNpi7CPf5zu0Y4Hs8E=/2121x1414/filters:fill(auto,1)/Claycutandslapmethod-GettyImages-518482799-59384b2e3df78c537be31d74.jpg');
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.step-2 img {
+  height: 200px;
+}
+
+.video-wheel {
+  text-align:center;
+}
+
+#video1 {
+  border:solid transparent 10px;
+  outline: solid white 1px;
+}
+
+.stepz-context {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stepss-context {
+  display: flex;
+  flex-direction: row;
+}
+
+.stepz-context svg {
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(25, 24, 24);
+  line-height: 27px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+.spin {
+  margin: auto;
+}
+
+footer img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.f-navbar {
+  height: 240px;
+  display: flex;
+  padding-right: 60px;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 30px 0 0 200px;
+  border-right: solid rgba(255, 255, 255, 0.11) 1px;
+}
+
+.f-navbar h2 {
+  color: rgba(177, 172, 172, 0.653);
+  font-size: 22px;
+}
+
+.f-navbar a {
+  color: rgba(255, 255, 255, 0.667);
+}
+
+.f-navbar a:hover {
+  color: rgba(255, 255, 255, 0.84);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon-navbar {
+  margin: auto 15px;
+  display: flex;
+  padding-right: 60px;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.icon-navbar a {
+  color: rgba(255, 255, 255, 0.326);
+  margin-bottom: 10px;
+}
+
+.icon-navbar a:hover {
+  color: rgba(255, 255, 255, 0.651);
+  cursor: pointer;
+}
+
+.f-text {
+  width: 250px;
+  margin: auto;
+}

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Poppins:wght@300&display=swap');
+     body{
+      background-color: rgb(102, 78, 62);   
+     }
+    img{
+      border-radius: 20px;
+      float:left;
+      width: 520px;
+      height: 600px;
+    }
+    h2{
+      font-family: 'Playfair Display SC', serif;
+      font-size: 165px;
+
+    }
+    .qwer{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+    .off1 , .off2 ,.off3{
+        width: 300px;
+        height: 300px;
+    }
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+    
+      }
+      
+      .flip-card-back {
+        background-color: #d8b47f;
+        color: white;
+        transform: rotateY(180deg);
+        border-radius: 20px;
+      }
+    h3{
+       font-size: 27px;
+       font-family: 'Cormorant Garamond', serif;
+       font-family: 'Poppins', sans-serif;
+
+    }
+    
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(25, 24, 24);
+  line-height: 27px;
+}
+
+.navbar {
+  text-align: center;
+  word-spacing: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+}
+
+.navbar a {
+  color: grey;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  opacity: 0.5;
+  border-bottom: white solid 1px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+.spin {
+  margin: auto;
+}
+
+footer img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.f-navbar {
+  height: 240px;
+  display: flex;
+  padding-right: 60px;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 30px 0 0 200px;
+  border-right: solid rgba(255, 255, 255, 0.11) 1px;
+}
+
+.f-navbar h2 {
+  color: rgba(177, 172, 172, 0.653);
+  font-size: 22px;
+}
+
+.f-navbar a {
+  color: rgba(255, 255, 255, 0.667);
+}
+
+.f-navbar a:hover {
+  color: rgba(255, 255, 255, 0.84);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon-navbar {
+  margin: auto 15px;
+  display: flex;
+  padding-right: 60px;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.icon-navbar a {
+  color: rgba(255, 255, 255, 0.326);
+  margin-bottom: 10px;
+}
+
+.icon-navbar a:hover {
+  color: rgba(255, 255, 255, 0.651);
+  cursor: pointer;
+}
+
+.f-text {
+  width: 250px;
+  margin: auto;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&display=swap');
+        body{
+            background-color:rgb(104, 90, 70);
+        }
+
+        
+.navbar {
+  text-align: center;
+  word-spacing: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+}
+
+.navbar a {
+  color: rgb(206, 206, 206);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  opacity: 0.5;
+  border-bottom: white solid 1px;
+}
+
+       
+      .image1 {
+        margin-top: 80px;
+        margin-left: 120px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid #000000;
+        z-index: 1;
+        width: 700px;
+        height: 600px;
+       
+      }
+      .image2 {
+        margin-top:600px ;       
+        margin-left: 600px;
+        top: 25px;
+        left: 25px;
+        border: 1px solid #000000;
+        z-index: 2;
+        width: 700px;
+        height: 700px;
+      }
+      .image3{
+        margin-top:-70px ;       
+        margin-left: 120px;
+        top: 25px;
+        left: 25px;
+        border: 1px solid #000000;
+        z-index: 2;
+        width: 700px;
+        height: 700px;
+      }
+      .image4{
+        margin-top:-80px ;       
+        margin-left: 640px;
+        top: 25px;
+        left: 30px;
+        border: 1px solid #000000;
+        z-index: 2;
+        width: 700px;
+        height: 650px;
+      }
+      .header1 {
+        margin-top: 300px;
+        font-size: 110px;
+        font-family: 'Faustina', serif;
+        margin-left:860px;
+        position: absolute;
+        top: 10px;
+        /* left: 10px; */
+        z-index: 1;
+    
+       
+      }
+      .header2 {
+        margin-top:900px;
+        font-size:110px;
+        font-family: 'Faustina', serif;
+        margin-left: 300px;
+        position: absolute;
+        top: 10px;
+        z-index: 1;
+
+      }
+      .header3{
+        margin-top:550px;
+        font-size: 110px;
+        font-family: 'Faustina', serif;
+        margin-left:980px;
+        position: absolute;
+        top: 1000px;
+        z-index: 1;
+        
+      
+      }
+      .header4{
+        margin-top:1200px;
+        font-size:110px;
+        font-family: 'Faustina', serif;
+        margin-left: 200px;
+        position: absolute;
+        top: 1000px;
+      }
+    .div2 {
+  animation: mymove 2s;
+  animation-timing-function: ease-out;
+}
+.div1{
+  animation: yourmove 2s ;
+  animation-timing-function: ease-out;
+}
+@keyframes mymove {
+  from {left:0px;}
+  to {left: 100px;}
+
+}
+
+@keyframes yourmove {
+  from {right: 0px;}
+  to {right: 280px;}
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(25, 24, 24);
+  line-height: 27px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+.spin {
+  margin: auto;
+}
+
+footer img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.f-navbar {
+  height: 240px;
+  display: flex;
+  padding-right: 60px;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 30px 0 0 200px;
+  border-right: solid rgba(255, 255, 255, 0.11) 1px;
+}
+
+.f-navbar h2 {
+  color: rgba(177, 172, 172, 0.653);
+  font-size: 22px;
+}
+
+.f-navbar a {
+  color: rgba(255, 255, 255, 0.667);
+}
+
+.f-navbar a:hover {
+  color: rgba(255, 255, 255, 0.84);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon-navbar {
+  margin: auto 15px;
+  display: flex;
+  padding-right: 60px;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.icon-navbar a {
+  color: rgba(255, 255, 255, 0.326);
+  margin-bottom: 10px;
+}
+
+.icon-navbar a:hover {
+  color: rgba(255, 255, 255, 0.651);
+  cursor: pointer;
+}
+
+.f-text {
+  width: 250px;
+  margin: auto;
+}
+    </style>
+
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            
+          <li><a href="/main.html">Main</a></li>
+          <li><a href="/ABOUT.html">About</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/offer.html">Offer</a></li>
+          <li><a href="/tutorial.html">Tutorial</a></li>
+          <li><a href="/SHOP.html">Shop</a></li>
+          <li><a href="/book.html">Book</a></li>
+        </ul>
+    </div>
+ 
+        <img  class='image1' src="gallery1.jpg" alt="" ></img> 
+        <img  class='image2' src="gallery2.jpg" alt=""></img>
+        <img  class='image3' src="gallery3.jpg" alt=""></img>
+        <img  class='image4' src="gallery444.jpg" alt=""></img>
+
+        <h4 class="header1 div1">Galery</h4>
+        <h4 class="header2 div2">OF</h4>
+        <h4 class="header3 div1">OUR</h4>
+        <h4 class="header4 div2">ART</h4>
+          
+   
+        <script src="ggg.js"></script>
+
+        <footer>
+          <div class="f-navbar">
+            <h2>Company</h2>
+            <a href="/ABOUT.html">About</a>
+            <a href="/gallery.html">Gallery</a>
+            <a href="offer.html">Offer</a>
+            <a href="/tutorial.html">Tutorial</a>
+            <a href="/SHOP.html">Shop</a>
+            <a href="/book.html">Book</a>
+          </div>
+    
+          <div class="icon-navbar">
+            <a href="https://www.instagram.com/__nazazaa/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://vk.com/myfavperson"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100006064458810"><i class="fa-brands fa-vk"></i></a>
+          </div>
+    
+          <a class="spin" href="/book.html"><img src="/reserve.png" alt=""></a>
+    
+          <div class="f-text">
+            <p style="color: black;">Come get your hands messy with Clay and let your Creativity flow free! Experience the craft of Pottery from the very best of Sri Lanka; Master Potter Ajith Perera and Studio Potter Yashodha Perera!</p>
+          </div>    </footer>
+</body>
+</html>

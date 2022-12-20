@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('гончарство.jpg');
+    background-size: 100%;
+    background-attachment: fixed
+}
+
+.navbar {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar a {
+    color: White;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+    border-bottom: white solid 1px;
+}
+
+.txt{
+    font-size: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    color:rgb(0, 0, 0);
+    text-shadow: rgb(90, 29, 29) 1px 1px 1px;
+}
+.prozrachyi{
+    background-color: rgba(56, 57, 58, 0);
+    height: 1000px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.h1{
+    margin-top:150px;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', serif;
+}
+h3{
+    color: rgb(255, 255, 255);
+    width: 700px;
+   text-align: center;
+   margin-left:395px ;
+   margin-top: -20px;
+   font-family: 'Cormorant Garamond', serif;
+}
+.t{
+    fill:#ffffff;
+    width:38.417px;
+    height:18.592px;
+    position:absolute;
+    margin-top: -500px;
+    margin-left: 720px;
+}
+.kartina-1{
+    width:295px;
+    margin-top: -400px;
+    margin-left: 50px;
+}
+.kartina-2{
+    width: 300px;
+    margin-top:70px;
+}
+.about{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    text-shadow: rgb(255, 255, 255) 1px 1px 1px;
+    margin-top: -350px;
+    margin-left: 700px;
+}
+.aq{
+    height: 1000px;
+    background-color:#ffffff;
+    margin-top: -350px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.tochki{
+    font-size: 30px;
+    width: 800px;
+    margin-top: -400px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: rgb(255, 255, 255) 2px 3px 4px;
+    text-align: center;
+    
+}
+  .kart1{
+    width: 500px;
+    margin-top: 80px;
+    position: relative;
+    margin-left: 900px;
+  }
+  
+footer {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(25, 24, 24);
+    line-height: 27px;
+  }
+  
+  footer p {
+    font-size: 18px;
+  }
+  
+  .spin {
+    margin: auto;
+  }
+  
+  footer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+      0% {
+          transform:rotate(0deg);
+      }
+      100% {
+          transform:rotate(360deg);
+      }
+  }
+  
+  .f-navbar {
+    height: 240px;
+    display: flex;
+    padding-right: 60px;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 30px 0 0 200px;
+    border-right: solid rgba(255, 255, 255, 0.11) 1px;
+  }
+  
+  .f-navbar h2 {
+    color: rgba(177, 172, 172, 0.653);
+    font-size: 22px;
+  }
+  
+  .f-navbar a {
+    color: rgba(255, 255, 255, 0.667);
+  }
+  
+  .f-navbar a:hover {
+    color: rgba(255, 255, 255, 0.84);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .icon-navbar {
+    margin: auto 15px;
+    display: flex;
+    padding-right: 60px;
+    flex-direction: column;
+    font-size: 18px;
+  }
+  
+  .icon-navbar a {
+    color: rgba(255, 255, 255, 0.326);
+    margin-bottom: 10px;
+  }
+  
+  .icon-navbar a:hover {
+    color: rgba(255, 255, 255, 0.651);
+    cursor: pointer;
+  }
+  
+  .f-text {
+    width: 250px;
+    margin: auto;
+  }
